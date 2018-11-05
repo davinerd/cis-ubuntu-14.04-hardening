@@ -80,7 +80,7 @@ function main() {
     log_error "Ubuntu only. Exiting."
     exit 1
   fi
-  
+
 
 
   for s in ./controls/*; do
@@ -90,8 +90,9 @@ function main() {
   done
 
   f_apt
-  
+
   c_1_1
+  c_1_3
   c_1_5
   c_1_6
   c_1_7
